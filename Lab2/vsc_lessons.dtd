@@ -1,0 +1,13 @@
+<!-- root element -->
+<!ELEMENT schedule (class+)>
+<!-- school class one or more lessons -->
+<!ELEMENT class (lesson+)>
+<!ATTLIST class id CDATA #REQUIRED> <!-- unique string no format text -->
+<!-- single lesson and its properties -->
+<!ELEMENT lesson (subject, teacher, day, starttime, endtime)>
+<!-- lesson properties -->
+<!ELEMENT subject (#PCDATA)> <!-- text string formatted text -->
+<!ELEMENT teacher (#PCDATA)>
+<!ELEMENT day (#PCDATA)>
+<!ELEMENT starttime (#PCDATA)>
+<!ELEMENT endtime (#PCDATA)>

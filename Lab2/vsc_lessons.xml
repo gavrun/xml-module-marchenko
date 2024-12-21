@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE schedule SYSTEM "vsc_lessons.dtd">
+<schedule>
+    <class id="1A">
+        <lesson>
+            <subject>Mathematics</subject>
+            <teacher>Ivanova</teacher>
+            <day>Monday</day>
+            <starttime>09:00</starttime>
+            <endtime>09:40</endtime>
+        </lesson>
+        <lesson>
+            <subject>Reading</subject>
+            <teacher>Petrova</teacher>
+            <day>Monday</day>
+            <starttime>10:00</starttime>
+            <endtime>10:40</endtime>
+        </lesson>
+        <lesson>
+            <subject>Physical Education</subject>
+            <teacher>Sidorov</teacher>
+            <day>Wednesday</day>
+            <starttime>11:00</starttime>
+            <endtime>11:40</endtime>
+        </lesson>
+    </class>
+    <class id="1B">
+        <lesson>
+            <subject>Russian Language</subject>
+            <teacher>Smirnova</teacher>
+            <day>Tuesday</day>
+            <starttime>09:00</starttime>
+            <endtime>09:40</endtime>
+        </lesson>
+        <lesson>
+            <subject>World Around Us</subject>
+            <teacher>Orlov</teacher>
+            <day>Thursday</day>
+            <starttime>10:00</starttime>
+            <endtime>10:40</endtime>
+        </lesson>
+        <lesson>
+            <subject>Art</subject>
+            <teacher>Vasileva</teacher>
+            <day>Friday</day>
+            <starttime>11:00</starttime>
+            <endtime>11:40</endtime>
+        </lesson>
+    </class>
+    <class id="1C">
+        <lesson>
+            <subject>Mathematics</subject>
+            <teacher>Ivanova</teacher>
+            <day>Monday</day>
+            <starttime>08:00</starttime>
+            <endtime>08:40</endtime>
+        </lesson>
+        <lesson>
+            <subject>Music</subject>
+            <teacher>Kuznetsova</teacher>
+            <day>Friday</day>
+            <starttime>12:00</starttime>
+            <endtime>12:40</endtime>
+        </lesson>
+        <lesson>
+            <subject>Drawing</subject>
+            <teacher>Kozlov</teacher>
+            <day>Wednesday</day>
+            <starttime>13:00</starttime>
+            <endtime>13:40</endtime>
+        </lesson>
+    </class>
+</schedule>
