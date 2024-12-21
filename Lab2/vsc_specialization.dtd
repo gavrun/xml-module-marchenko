@@ -1,0 +1,19 @@
+<!ELEMENT specialization (name, schedule)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT schedule (course+)>
+<!-- ELEMENT teachers (teacher+) -->
+<!ELEMENT course (id, name, teacher, hours, assessment, startDate, endDate)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT teacher (title, firstName?, lastName?)>
+<!-- ATTLIST teacher id ID #REQUIRED -->
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT firstName (#PCDATA)>
+<!ELEMENT lastName (#PCDATA)>
+<!ELEMENT hours (#PCDATA)>
+<!ATTLIST hours unit (hours) "hours">
+<!ELEMENT assessment (#PCDATA)>
+<!ATTLIST assessment type (Pass | Exam | Grade) "Pass">
+<!-- ELEMENT dates (startDate, endDate) -->
+<!ELEMENT startDate (#PCDATA)>
+<!ELEMENT endDate (#PCDATA)>

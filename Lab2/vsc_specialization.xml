@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<specialization>
+    <name>Software Engineering</name>
+    <schedule>
+        <course>
+            <id>1</id>
+            <name>Programming Technologies</name>
+            <teacher>
+                <title>Senior Lecturer</title>
+                <firstName>Denis</firstName>
+                <lastName>Yamshikov</lastName>
+            </teacher>
+            <hours>50</hours>
+            <assessment>Pass</assessment>
+            <startDate>2024-09-23</startDate>
+            <endDate>2024-10-14</endDate>
+        </course>
+        <course>
+            <id>2</id>
+            <name>Programming in C#</name>
+            <teacher>
+                <title>Associate Professor</title>
+                <firstName>Nikita</firstName>
+                <lastName>Osipov</lastName>
+            </teacher>
+            <hours>50</hours>
+            <assessment>Pass</assessment>
+            <startDate>2024-10-17</startDate>
+            <endDate>2024-11-11</endDate>
+        </course>
+        <course>
+            <id>3</id>
+            <name>Database Fundamentals</name>
+            <teacher>
+                <title>Senior Lecturer</title>
+                <firstName>Irina</firstName>
+                <lastName>Osetrova</lastName>
+            </teacher>
+            <hours>30</hours>
+            <assessment>Pass</assessment>
+            <startDate>2024-11-12</startDate>
+            <endDate>2024-11-22</endDate>
+        </course>
+        <course>
+            <id>4</id>
+            <name>Windows Application Development in C#</name>
+            <teacher>
+                <title>Senior Lecturer</title>
+                <firstName>Konstantin</firstName>
+                <lastName>Kuzmin</lastName>
+            </teacher>
+            <hours>50</hours>
+            <assessment>Exam</assessment>
+            <startDate>2024-11-26</startDate>
+            <endDate>2024-12-16</endDate>
+        </course>
+        <course>
+            <id>5</id>
+            <name>Basics of Markup Technologies (HTML, XML)</name>
+            <teacher>
+                <title>Senior Lecturer</title>
+                <firstName>Evgeny</firstName>
+                <lastName>Marchenko</lastName>
+            </teacher>
+            <hours>20</hours>
+            <assessment>Pass</assessment>
+            <startDate>2024-12-17</startDate>
+            <endDate>2024-12-24</endDate>
+        </course>
+        <course>
+            <id>6</id>
+            <name>PL/pgSQL and Database Implementation in PostgreSQL</name>
+            <teacher>
+                <title>Senior Lecturer</title>
+                <firstName>Denis</firstName>
+                <lastName>Yamshikov</lastName>
+            </teacher>
+            <hours>60</hours>
+            <assessment>Exam</assessment>
+            <startDate>2025-01-15</startDate>
+            <endDate>2025-02-18</endDate>
+        </course>
+        <course>
+            <id>7</id>
+            <name>ADO.NET Technology</name>
+            <teacher>
+                <title>Senior Lecturer</title>
+                <firstName>Konstantin</firstName>
+                <lastName>Kuzmin</lastName>
+            </teacher>
+            <hours>40</hours>
+            <assessment>Pass</assessment>
+            <startDate>2025-02-20</startDate>
+            <endDate>2025-03-10</endDate>
+        </course>
+        <course>
+            <id>8</id>
+            <name>Web Application Development with ASP.NET</name>
+            <teacher>
+                <title>Senior Lecturer</title>
+                <firstName>Anton</firstName>
+                <lastName>Smolyaninov</lastName>
+            </teacher>
+            <hours>50</hours>
+            <assessment>Exam</assessment>
+            <startDate>2025-03-12</startDate>
+            <endDate>2025-04-01</endDate>
+        </course>
+        <course>
+            <id>9</id>
+            <name>Introduction to Data Analysis</name>
+            <teacher>
+                <title>Associate Professor</title>
+                <firstName>Nikita</firstName>
+                <lastName>Osipov</lastName>
+            </teacher>
+            <hours>25</hours>
+            <assessment>Pass</assessment>
+            <startDate>2025-04-03</startDate>
+            <endDate>2025-04-11</endDate>
+        </course>
+        <course>
+            <id>10</id>
+            <name>Programming in Java</name>
+            <teacher>
+                <title>Senior Lecturer</title>
+                <firstName>Arthur</firstName>
+                <lastName>Kharatyan</lastName>
+            </teacher>
+            <hours>65</hours>
+            <assessment>Exam</assessment>
+            <startDate>2025-04-14</startDate>
+            <endDate>2025-05-23</endDate>
+        </course>
+        <course>
+            <id>11</id>
+            <name>Oracle Databases (SQL, PL/SQL)</name>
+            <teacher>
+                <title>Associate Professor</title>
+                <firstName>Vitaliy</firstName>
+                <lastName>Klimanov</lastName>
+            </teacher>
+            <hours>50</hours>
+            <assessment>Pass</assessment>
+            <startDate>2025-05-26</startDate>
+            <endDate>2025-06-17</endDate>
+        </course>
+        <course>
+            <id>12</id>
+            <name>Programming in Python</name>
+            <teacher>
+                <title>Senior Lecturer</title>
+                <firstName>Konstantin</firstName>
+                <lastName>Kuzmin</lastName>
+            </teacher>
+            <hours>50</hours>
+            <assessment>Pass</assessment>
+            <startDate>2025-06-19</startDate>
+            <endDate>2025-07-11</endDate>
+        </course>
+        <course>
+            <id>13</id>
+            <name>Programming in C++</name>
+            <teacher>
+                <title>Associate Professor</title>
+                <firstName>Nikita</firstName>
+                <lastName>Osipov</lastName>
+            </teacher>
+            <hours>65</hours>
+            <assessment>Exam</assessment>
+            <startDate>2025-07-14</startDate>
+            <endDate>2025-08-01</endDate>
+        </course>
+        <course>
+            <id>14</id>
+            <name>Web Application Development with HTML5, JavaScript, CSS3</name>
+            <teacher>
+                <title>Senior Lecturer</title>
+                <firstName>Denis</firstName>
+                <lastName>Yamshikov</lastName>
+            </teacher>
+            <hours>50</hours>
+            <assessment>Pass</assessment>
+            <startDate>2025-09-01</startDate>
+            <endDate>2025-09-19</endDate>
+        </course>
+        <course>
+            <id>15</id>
+            <name>Diploma Project</name>
+            <teacher>
+                <title>Project Supervisors</title>
+            </teacher>
+            <hours>95</hours>
+            <assessment>Grade</assessment>
+            <startDate>2025-09-22</startDate>
+            <endDate>2025-10-28</endDate>
+        </course>
+    </schedule>
+</specialization>
