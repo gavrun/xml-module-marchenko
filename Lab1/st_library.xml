@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<library>
+    <books>
+        <book id="b1">
+            <title>Introduction to XML</title>
+            <genre>Programming</genre>
+            <author id="a1" />
+            <published>2020-03-15</published>
+            <status>Available</status>
+        </book>
+        <book id="b2">
+            <title>Advanced Python</title>
+            <genre>Programming</genre>
+            <author id="a2" />
+            <published>2018-11-12</published>
+            <status>Checked Out</status>
+        </book>
+        <book id="b3">
+            <title>World History</title>
+            <genre>History</genre>
+            <author id="a3" />
+            <published>2015-06-30</published>
+            <status>Available</status>
+        </book>
+    </books>
+    <authors>
+        <author id="a1">
+            <firstname>John</firstname>
+            <lastname>Doe</lastname>
+            <nationality>USA</nationality>
+        </author>
+        <author id="a2">
+            <firstname>Jane</firstname>
+            <lastname>Smith</lastname>
+            <nationality>UK</nationality>
+        </author>
+        <author id="a3">
+            <firstname>Albert</firstname>
+            <lastname>Johnson</lastname>
+            <nationality>Canada</nationality>
+        </author>
+    </authors>
+    <readers>
+        <reader id="r1">
+            <firstname>Anna</firstname>
+            <lastname>Ivanova</lastname>
+            <membership>Active</membership>
+        </reader>
+        <reader id="r2">
+            <firstname>Michael</firstname>
+            <lastname>Petrov</lastname>
+            <membership>Inactive</membership>
+        </reader>
+    </readers>
+    <transactions>
+        <transaction id="t1">
+            <reader id="r1" />
+            <book id="b2" />
+            <dateborrowed>2023-12-15</dateborrowed>
+            <datereturned>2023-12-20</datereturned>
+        </transaction>
+        <transaction id="t2">
+            <reader id="r1" />
+            <book id="b3" />
+            <dateborrowed>2023-12-18</dateborrowed>
+        </transaction>
+    </transactions>
+</library>
