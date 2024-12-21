@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE library SYSTEM "vsc_library.dtd">
+<library>
+    <book_catalog>
+        <book id="b1" year="2024" issue="original" isbn="978-1-2345-6789-0">
+            <authors>
+                <author>Dick Gaylord </author> 
+                <author>Ali Gee</author>
+            </authors>
+            <title>Mastering Jokes</title>
+            <publishing>JokersPress</publishing>
+            <annotation>A complete guide to the advanced sitcom concepts.</annotation>
+        </book>
+        <book id="b2" year="2020" issue="translation">
+            <authors>
+                <author>Dark Brown</author> 
+            </authors>
+            <title>Social Security Essentials</title>
+            <publishing>WhitePublishing</publishing>
+        </book>
+        <!-- with entities -->
+        <book id="b3" year="2022" issue="original">
+            <authors>
+                <author>Rob Newton</author>
+            </authors>
+            <title>Artificial Intelligence Basics</title>
+            <publishing>FutureTechPress</publishing>
+            <annotation>Exploring the foundations of artificial intelligence through practice using &linux; and the &internet;.</annotation>
+        </book>
+    </book_catalog>
+    <!-- author_book supposed to be mapped to author_catalog -->
+    <author_catalog>
+        <author_book idref="b1"></author_book>
+        <author_book idref="b2"></author_book>
+        <author_book idref="b3"></author_book>
+    </author_catalog>
+</library>
