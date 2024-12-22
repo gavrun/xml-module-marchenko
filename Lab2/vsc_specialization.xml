@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE specialization SYSTEM "vsc_specialization.dtd">
 <specialization>
-    <name>Software Engineering</name>
     <schedule>
         <course>
             <id>1</id>

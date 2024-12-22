@@ -1,5 +1,4 @@
-<!ELEMENT specialization (name, schedule)>
-<!ELEMENT name (#PCDATA)>
+<!ELEMENT specialization (schedule)>
 <!ELEMENT schedule (course+)>
 <!-- ELEMENT teachers (teacher+) -->
 <!ELEMENT course (id, name, teacher, hours, assessment, startDate, endDate)>
