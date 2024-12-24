@@ -1,0 +1,45 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<resume xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vs_resume.xsd">
+    <candidate id="a">
+        <Name>Anna</Name>
+        <LastName>Oshepkova</LastName>
+        <PatronymicName>Petrovna</PatronymicName>
+        <Age>43</Age>
+        <WorkPlace>OOO "Project"</WorkPlace>
+        <Post>Manager</Post>
+        <DateOfBirth>1980-09-12</DateOfBirth>
+        <Education>Higher</Education>
+        <Address>St. Petersburg, Lenin St. 3-5</Address>
+        <Phone>12-45-67</Phone>
+        <FamilyStatus>Married</FamilyStatus>
+        <DesiredSalary currency="RUR">30000</DesiredSalary>
+    </candidate>
+    <candidate id="b">
+        <Name>Ivan</Name>
+        <LastName>Sidorenko</LastName>
+        <PatronymicName>Ivanovich</PatronymicName>
+        <Age>55</Age>
+        <WorkPlace>OOO "RusLight"</WorkPlace>
+        <Post>Economist</Post>
+        <DateOfBirth>1968-03-02</DateOfBirth>
+        <Education>Higher</Education>
+        <Address>St. Petersburg, Serpukhovskaya 13-9</Address>
+        <Phone>987-65-54</Phone>
+        <FamilyStatus>Married</FamilyStatus>
+        <DesiredSalary currency="RUR">50000</DesiredSalary>
+    </candidate>
+    <candidate id="c">
+        <Name>Olga</Name>
+        <LastName>Gashekova</LastName>
+        <PatronymicName>Sergeevna</PatronymicName>
+        <Age>47</Age>
+        <WorkPlace>OOO "Build"</WorkPlace>
+        <Post>Sales Manager</Post>
+        <DateOfBirth>1976-12-19</DateOfBirth>
+        <Education>Secondary</Education>
+        <Address>St. Petersburg, Dbunovskaya 12-4</Address>
+        <Phone>122-33-44</Phone>
+        <FamilyStatus>Single</FamilyStatus>
+        <DesiredSalary currency="RUR">35000</DesiredSalary>
+    </candidate>
+</resume>
